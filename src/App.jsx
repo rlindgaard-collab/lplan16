@@ -521,7 +521,6 @@ ${(goals["færdighedsmål"] || []).join("\n")}
               transition: "background-color 0.2s ease",
               fontWeight: "500"
             }}
-          </div>
           
           <button 
             onClick={() => document.getElementById('pdfUpload').click()} 
