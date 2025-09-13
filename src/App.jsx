@@ -520,6 +520,9 @@ ${(goals["færdighedsmål"] || []).join("\n")}
               textAlign: "center",
               transition: "background-color 0.2s ease",
               fontWeight: "500"
+            }}
+          </div>
+          
           <button 
             onClick={() => document.getElementById('pdfUpload').click()} 
             className="bg-black text-white py-3 px-4 rounded-lg hover:bg-gray-800 transition-colors block mx-auto w-auto max-w-[250px]"
